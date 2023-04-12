@@ -11,14 +11,18 @@
 .MainDivImg {
   display: flex;
   justify-content: center;
+  width: 90%;
+  padding: 0px 65px;
+  margin-bottom: 80px;
 }
 .MainDivHomes {
   width: 90%;
-  background: #F2F2F2;
+  background: #ECECEC;
   border-radius: 25px;
   &_Infos {
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 80px;
     gap: 15px;
     justify-content: center;
   }
