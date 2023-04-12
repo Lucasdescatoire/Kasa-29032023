@@ -1,4 +1,4 @@
-body{
+body {
   //background: brown;
 }
 .ClimbTwo {
@@ -7,22 +7,19 @@ body{
   width: 1250px;
   height: 250px;
   border-radius: 25px;
-  filter: contrast(80%) contrast(102%);
+  filter : brightness(85%);
 }
 .SecndMainDivImg {
   display: flex;
   justify-content: center;
 }
 
-
 .title_img img {
-
   z-index: -1;
   object-fit: cover;
   border-radius: 25px;
   width: 94%;
 }
-
 
 .MainDivAbout {
   display: flex;
@@ -33,7 +30,7 @@ body{
     flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
-    margin: 10px;
+    margin-bottom: 20px;
   }
   &_MainContainer {
     display: flex;
@@ -45,4 +42,7 @@ body{
   display: flex;
   justify-content: center;
   margin-left: 6.3rem;
+  margin-bottom: 80px;
 }
+
+
