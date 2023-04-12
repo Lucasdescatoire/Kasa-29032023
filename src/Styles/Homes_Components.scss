@@ -7,7 +7,12 @@
     flex-wrap: wrap;
     border-radius: 10px;
     margin: 25px;
-  }
+  
+  transition: transform 0.3s;
+}
+&_Card:hover {
+  transform: scale(1.13);
+}
   &_Title {
     margin-top: auto;
     margin-bottom: 5px;
