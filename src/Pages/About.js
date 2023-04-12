@@ -12,7 +12,6 @@ function About() {
         document.title = `KASA / About`
     })
 
-
     return (
         <div>
             <div className="BigContent">
