@@ -11,8 +11,8 @@ function RouterApp() {
         <BrowserRouter>
                 {/* enveloper le composant Route dans le parent composant Routes pour la new version react */}
                 <Routes>
-                    <Route path={"/home"} exact={true} element={<Home />} />
-                    <Route path="/about" element={<About />} />
+                <Route path={"/home"} exact={true} element={<Home title="Home" />} />
+                    <Route path="/about" element={<About title="About"  />} />
                     <Route path="/" element={<Home />} />
                     <Route path={'*'} element={<Error />} />
                     <Route path="/locations/:id" element={<LocationPage />} />
