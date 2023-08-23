@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState, useEffect } from 'react';
 import { useParams } from "react-router-dom";
-
+import Footer from "../Components/Footer";
 import DropDown from "../Components/About_Components/DropDown";
 import Avatar from "../Components/Avatar";
 import Tag from "../Components/Tags"
@@ -91,7 +91,7 @@ export default function LocationPage() {
             </div>
 
         </div>
-
+        <Footer />
         </div>
     );
 }

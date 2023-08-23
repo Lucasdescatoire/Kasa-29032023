@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Banner from "../Components/Banner";
 import "../Styles/Error404.scss"
-//import  { LoremIpsum } from "lorem-ipsum";
+import Footer from "../Components/Footer";
 
 
 function Error () {
@@ -20,7 +20,7 @@ function Error () {
                     fontSize: "20px"
                 }}>Retourner sur la page d'accueil</Link>
             </div>
-
+            <Footer />
         </div>
     )
 }

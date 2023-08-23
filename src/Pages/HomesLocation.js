@@ -9,6 +9,7 @@ import Banner from "../Components/Banner";
 import Rates from "../Components/Homes_Page_Components/Rate_Stars";
 import "../Styles/HomesLocation.scss"
 import Error from "./Error";
+import Footer from "../Components/Footer";
 
 
 export default function LocationPage() {
@@ -88,10 +89,12 @@ export default function LocationPage() {
                         </div>
 
                     </div>
+                  
                 </div>
 
-                }
+                }  <Footer />
             </>
+            
         );
     } else {
         return (
