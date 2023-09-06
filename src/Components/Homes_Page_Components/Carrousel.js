@@ -6,8 +6,7 @@ import { faCheckSquare, faChevronLeft, faChevronRight } from '@fortawesome/free-
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 library.add(fab, faCheckSquare, faChevronLeft, faChevronRight )
-/*import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {solid} from "@fortawesome/fontawesome-svg-core/import.macro";*/
+
 
 function Carrousel(props){
     const [slideIdx, setSlideIdx] = useState(0), imgSize = () => {
@@ -20,8 +19,7 @@ function Carrousel(props){
         if (slideIdx === 0) {
             setSlideIdx(props.img.length - 1)
         }
-        /*if (slideIdx <= 1) {
-        }*/
+
         else {
             setSlideIdx(slideIdx - 1)
         }
@@ -32,12 +30,7 @@ function Carrousel(props){
         } else {
             setSlideIdx(slideIdx + 1)
         }
-    }/*,  hideControls = () => {
-            if (props.img.length <= 1) {
-                document.querySelector('.slideshow-controls').style = "display: none;"
-            }
-        }*/
-    /*const pics = props.pictures*/
+    }
     return (
 
         <div className="MainDivCarrousel">
@@ -50,11 +43,10 @@ function Carrousel(props){
             {/*instanciation de la condition qui enleve les controls sur une seule image*/}
             {props.img.length > 1 ? (
                 <div className={'MainDivCarrousel_Controls'}>
-                    {/*<FontAwesomeIcon icon={solid("chevron-left")} className={'chevron'} onClick={onPrev} />*/}
+                 
                     <FontAwesomeIcon icon={["fas", "chevron-left"]} className={'chevron'}  alt="chevron_left" onClick={onPrev} />
                     <FontAwesomeIcon icon={["fas", "chevron-right"]} className={'chevron'}  alt="chevron_right" onClick={onNext} />
-                    {/*<img src="/chevron-left.png" className={'chevron'}  alt="chevron_left" onClick={onPrev}/>
-                    <img src="/chevron-right.png" className={'chevron'} alt="chevron_right" onClick={onNext}/>*/}
+                 
                 </div>
 
             ) : ""

@@ -82,7 +82,7 @@ body::-webkit-scrollbar {
 }
 // media init
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 416px) {
   .BigContent {
     width: unset;
     height: unset;
@@ -108,7 +108,60 @@ body::-webkit-scrollbar {
       margin-left: 15px;
       padding: unset;
       position: absolute;
-      bottom: 80px;
+      bottom: 280px;
+    }
+    &_TitleHost_SubTitle {
+      font-size: 15px;
+      margin-top: unset;
+    }
+    &_PartTwo {
+      width: 100px;
+      margin-top: -110px;
+      flex-wrap: wrap;
+      flex-direction: column;
+      display: flex;
+      gap: 20px;
+      margin-left: 115px;
+    }
+    &_ShowCarrousel img {
+      border-radius: 10px;
+      height: 310px;
+    }
+    .MainDivCarrousel {
+     border-radius: 10px;
+    }
+  }
+
+
+}
+
+@media screen and (max-width: 412px) {
+  .BigContent {
+    width: unset;
+    height: unset;
+    min-height: unset;
+    margin: auto;
+    padding: unset;
+    &_PartOne {
+      margin-bottom: 170px;
+    }
+    &_Main {
+      width: 100px;
+    }
+    &_TitleHost_Titre {
+      font-size: 17px;
+      width: 300px;
+    }
+    &_TitleHost_Text {
+      margin-left: -40px;
+      width: 160px;
+      margin-bottom: 85px;
+    }
+    &_Tags {
+      margin-left: 15px;
+      padding: unset;
+      position: absolute;
+      bottom: 300px;
     }
     &_TitleHost_SubTitle {
       font-size: 15px;
@@ -136,10 +189,228 @@ body::-webkit-scrollbar {
 }
 
 
+
 // init media responsive
-@media (min-width: 401px)  {
+@media (min-width: 416px)  {
   .BigContent_TitleHost {
     flex-wrap: unset;
   }
 
 }
+
+
+@media screen and (max-width: 394px) {
+  .BigContent {
+    width: unset;
+    height: unset;
+    min-height: unset;
+    margin: auto;
+    padding: unset;
+    &_PartOne {
+      margin-bottom: 170px;
+    }
+    &_Main {
+      width: 100px;
+    }
+    &_TitleHost_Titre {
+      font-size: 17px;
+      width: 300px;
+    }
+    &_TitleHost_Text {
+      margin-left: -40px;
+      width: 160px;
+      margin-bottom: 85px;
+    }
+    &_Tags {
+      margin-left: 15px;
+      padding: unset;
+      position: absolute;
+      bottom: 230px;
+    }
+    &_TitleHost_SubTitle {
+      font-size: 15px;
+      margin-top: unset;
+    }
+    &_PartTwo {
+      width: 100px;
+      margin-top: -110px;
+      flex-wrap: wrap;
+      flex-direction: column;
+      display: flex;
+      gap: 20px;
+      margin-left: 115px;
+    }
+    &_ShowCarrousel img {
+      border-radius: 10px;
+      height: 310px;
+    }
+    .MainDivCarrousel {
+     border-radius: 10px;
+    }
+  }
+
+
+
+
+@media screen and (max-width: 391px) {
+  .BigContent {
+    width: unset;
+    height: unset;
+    min-height: unset;
+    margin: auto;
+    padding: unset;
+    &_PartOne {
+      margin-bottom: 170px;
+    }
+    &_Main {
+      width: 100px;
+    }
+    &_TitleHost_Titre {
+      font-size: 17px;
+      width: 300px;
+    }
+    &_TitleHost_Text {
+      margin-left: -40px;
+      width: 160px;
+      margin-bottom: 85px;
+    }
+    &_Tags {
+      margin-left: 15px;
+      padding: unset;
+      position: absolute;
+      bottom: 230px;
+    }
+    &_TitleHost_SubTitle {
+      font-size: 15px;
+      margin-top: unset;
+    }
+    &_PartTwo {
+      width: 100px;
+      margin-top: -110px;
+      flex-wrap: wrap;
+      flex-direction: column;
+      display: flex;
+      gap: 20px;
+      margin-left: 115px;
+    }
+    &_ShowCarrousel img {
+      border-radius: 10px;
+      height: 310px;
+    }
+    .MainDivCarrousel {
+     border-radius: 10px;
+    }
+  }
+
+
+}
+
+
+
+}
+@media screen and (max-width: 376px) {
+  .BigContent {
+    width: unset;
+    height: unset;
+    min-height: unset;
+    margin: auto;
+    padding: unset;
+    &_PartOne {
+      margin-bottom: 170px;
+    }
+    &_Main {
+      width: 100px;
+    }
+    &_TitleHost_Titre {
+      font-size: 17px;
+      width: 300px;
+    }
+    &_TitleHost_Text {
+      margin-left: -40px;
+      width: 160px;
+      margin-bottom: 85px;
+    }
+    &_Tags {
+      margin-left: 15px;
+      padding: unset;
+      position: absolute;
+      bottom: 50px;
+    }
+    &_TitleHost_SubTitle {
+      font-size: 15px;
+      margin-top: unset;
+    }
+    &_PartTwo {
+      width: 100px;
+      margin-top: -110px;
+      flex-wrap: wrap;
+      flex-direction: column;
+      display: flex;
+      gap: 20px;
+      margin-left: 115px;
+    }
+    &_ShowCarrousel img {
+      border-radius: 10px;
+      height: 310px;
+    }
+    .MainDivCarrousel {
+     border-radius: 10px;
+    }
+  }
+
+
+}
+
+@media screen and (max-width: 361px) {
+  .BigContent {
+    width: unset;
+    height: unset;
+    min-height: unset;
+    margin: auto;
+    padding: unset;
+    &_PartOne {
+      margin-bottom: 170px;
+    }
+    &_Main {
+      width: 100px;
+    }
+    &_TitleHost_Titre {
+      font-size: 17px;
+      width: 300px;
+    }
+    &_TitleHost_Text {
+      margin-left: -40px;
+      width: 160px;
+      margin-bottom: 85px;
+    }
+    &_Tags {
+      margin-left: 15px;
+      padding: unset;
+      position: absolute;
+      bottom: 30px;
+    }
+    &_TitleHost_SubTitle {
+      font-size: 15px;
+      margin-top: unset;
+    }
+    &_PartTwo {
+      width: 100px;
+      margin-top: -110px;
+      flex-wrap: wrap;
+      flex-direction: column;
+      display: flex;
+      gap: 20px;
+      margin-left: 115px;
+    }
+    &_ShowCarrousel img {
+      border-radius: 10px;
+      height: 310px;
+    }
+    .MainDivCarrousel {
+     border-radius: 10px;
+    }
+  }
+
+
+}
+

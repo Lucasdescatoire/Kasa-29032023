@@ -36,18 +36,107 @@
 
 
 // init responsive media
-@media screen and (max-width: 400px) {
+
+@media screen and (max-width: 415px) {
 
   .MainDivAvatar {
     position: absolute;
-    bottom: 20px;
+    bottom: 220px;
     right: 20px;
   }
   .MainDivRate {
     margin-left: -45px;
     position: absolute;
     display: flex;
-    bottom: 50px;
+    bottom: 250px;
+    img {
+      width: 20px;
+    }
+  }
+}
+
+@media screen and (max-width: 412px) {
+
+  .MainDivAvatar {
+    position: absolute;
+    bottom: 210px;
+    right: 20px;
+  }
+  .MainDivRate {
+    margin-left: -45px;
+    position: absolute;
+    display: flex;
+    img {
+      width: 20px;
+    }
+  }
+}
+
+@media screen and (max-width: 394px) {
+
+  .MainDivAvatar {
+    position: absolute;
+    bottom: 150px;
+    right: 20px;
+  }
+  .MainDivRate {
+    margin-left: -45px;
+    position: absolute;
+    display: flex;
+    img {
+      width: 20px;
+    }
+  }
+}
+
+@media screen and (max-width: 391px) {
+
+  .MainDivAvatar {
+    position: absolute;
+    bottom: 140px;
+    right: 20px;
+  }
+  .MainDivRate {
+    margin-left: -45px;
+    position: absolute;
+    display: flex;
+    bottom: 190px;
+    img {
+      width: 20px;
+    }
+  }
+}
+@media screen and (max-width: 376px) {
+
+  .MainDivAvatar {
+    position: absolute;
+    bottom: -40px;
+    right: 20px;
+  }
+  .MainDivRate {
+    margin-left: -45px;
+    position: absolute;
+    display: flex;
+    bottom: -10px;
+    img {
+      width: 20px;
+    }
+  }
+}
+
+
+@media screen and (max-width: 361px) {
+
+  .MainDivAvatar {
+    position: absolute;
+bottom: -50px;
+    right: 20px;
+  }
+  .MainDivRate {
+    margin-left: -45px;
+    position: absolute;
+    display: flex;
+    bottom: -10px;
     img {
       width: 20px;
     }

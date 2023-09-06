@@ -28,7 +28,7 @@ function Dropdown(props) {
             <div
                 ref={content}
                 style={{ maxHeight : `${setHeight}` }}
-                /*style={{height : `${setHeight}` }}*/
+           
                 className="dropdown_section_content"
             >
                 <div className="hiddenScroll">
