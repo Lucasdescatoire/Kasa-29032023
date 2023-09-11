@@ -9,18 +9,22 @@ import "../Styles/Banner.scss"
 
 function Banner () {
 
+   
 
     return (
         <div>
-            <div className="Header">
+            <div className="BannerDiv">
                 <div>
+                 
                     <Link to="/">
-                        <img src={logo} alt="logo_kasa" className="Header_Kasa_logo"/>
+                        <img src={logo} alt="logo_kasa" className="BannerDiv_Kasa_logo"/>
                     </Link>
                 </div>
-                <div className="Header_MainNav">
+
+             
+                <div className="BannerDiv_MainNav">
                     <NavLink
-                        className="Header_Links"
+                        className="BannerDiv_Links"
                         to="/home"
                         style={({ isActive }) => ({
                             color: isActive ? '#FF6060' : '#FF6060',
@@ -33,7 +37,7 @@ function Banner () {
                         Accueil
                     </NavLink>
                     <NavLink
-                        className="Header_Links"
+                        className="BannerDiv_Links"
                         to="/about"
                         style={({ isActive }) => ({
                             color: isActive ? '#FF6060' : '#FF6060',
@@ -45,7 +49,7 @@ function Banner () {
                     >
                         À Propos
                     </NavLink>
-                
+                   
                 </div>
             </div>
         </div>

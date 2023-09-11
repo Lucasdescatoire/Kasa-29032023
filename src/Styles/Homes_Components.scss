@@ -23,10 +23,10 @@
     color: #ffffff;
     /*text-shadow: 5px 5px 5px white;*/
     height: 52px;
-    font-weight: 500;
+    font-weight: 600;
     width: 230px;
     Left: 20px;
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif;
     font-size: 15px;
   }
 }
@@ -39,7 +39,7 @@
   margin-top: -100px;
 }
 // initier le responsive @media
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 400px) {
   .LocationLinks_Card {
     width: 320px;
     height: 250px;

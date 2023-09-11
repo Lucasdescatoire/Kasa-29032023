@@ -45,14 +45,14 @@
   left: 0;
   font-size: 48px;
   font-weight: 300;
-  font-family: Montserrat;
+  font-family: Montserrat, sans-serif;
   color: white;
   z-index: 2;
 }
 
 
 // init responsive media
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 400px) {
   .MainDivImg {
     width: unset;
     display: unset;
